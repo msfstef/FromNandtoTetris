@@ -1,5 +1,4 @@
 #include "Parser.h"
-#include <iostream>
 using namespace std;
 
 Parser::Parser(const char* file_path){
