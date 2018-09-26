@@ -19,6 +19,11 @@ void Parser::advance(){
 	getline(file,curr_line);
 }
 
+void Parser::reset(const char* file_path){
+	file.close();
+	file.open(file_path);
+}
+
 
 int Parser::commandType(){
 	if (curr_line[0] == '@') {

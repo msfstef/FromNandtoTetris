@@ -14,6 +14,7 @@ class Parser
 	Parser(const char* file_path);
 	bool hasMoreCommands();
 	void advance();
+	void reset(const char* file_path);
 	int commandType();
 	string symbol();
 	string dest();
