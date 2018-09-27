@@ -59,7 +59,7 @@ class Code
 	};
 	
 	public:
-	string comp(string comp_mem);
-	string dest(string dest_mem);
-	string jump(string jmp_mem);
+	string comp(string comp_mnem);
+	string dest(string dest_mnem);
+	string jump(string jmp_mnem);
 };

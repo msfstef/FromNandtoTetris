@@ -5,8 +5,9 @@ void SymbolTable::addEntry(string symbol, int address){
 	stable.insert({symbol,address});
 }
 
+
 bool SymbolTable::contains(string symbol){
-	if(stable.count(symbol)){
+	if(stable.count(symbol)==1){
 		return true;
 	} else {
 		return false;

@@ -1,4 +1,5 @@
 #include "Code.h"
+#include <iostream>
 using namespace std;
 
 string Code::comp(string comp_mnem){
